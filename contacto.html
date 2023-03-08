@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://icons8.com/icon/dKv72Pnv72CA/box" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Morris Weaver</h1>
+        <nav>
+            <a href="./index.html">Sobre mi</a>
+            <a href="./experiencia.html">Experiencia</a>
+            <a href="./habilidades.html">Hablidades</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section>
+        <article class="flex-container">
+            <div class="flex-item-right">
+                <h2 id="titulo">Contacto</h2>
+                
+                    <form name="form" action="#"  onsubmit="return validar();">
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" ><br>
+                        <label for="apellido">apellido:</label><br>
+                        <input type="text" id="apellido" name="apellido" ><br>
+                        <label for="correo">Email:</label><br>
+                        <input type="email" id="correo" name="correo" ><br>
+                        <label for="mensaje">Mensaje:</label><br>
+                        <input type="text" id="mensaje" name="mensaje" ><br><br>
+                        <button onclick="validar();">Enviar datos</button>
+                        
+                      </form> 
+            </div>
+            <div class="flex-item-left">
+                <img id="fotoprin" src="./asset/76.jpg" alt="fotoprincipal">
+            </div>
+        </article>
+        <article id="experiencia">
+
+
+        </article>
+    </section>
+
+    <footer>
+        <div id="redes">
+            <h3>Redes</h3>
+        </div>
+        <div id="links">
+          
+            <a href=""><img src="./asset/facebook.png" alt="facebok"></a>
+            <a href=""><img src="./asset/github.png" alt="github"></a>
+            <a href=""><img src="./asset/linkedin.png" alt="linkedin"></a>
+
+
+    </footer>
+    <script src="./contact.js"></script>
+</body>
+</html>
